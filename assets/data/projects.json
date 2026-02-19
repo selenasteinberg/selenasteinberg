@@ -2,9 +2,15 @@
   "featured": [
     {
       "icon": "bi-search-heart",
-      "title": "Sample Featured Project",
-      "description": "Description of a featured research project.",
-      "role": { "title": "Lead Researcher", "details": "Advised by Someone" }
+      "title": "Dissertation: Imagining possibilities for a more artful, embodied, and expressive math and science education",
+      "description": "My dissertation work focuses on exploring, alongside youth, the affordances and
+constraints of integrating STEM disciplines (math and science) with performing arts practices
+(theatre and dance). A sixth-grade class participated in four arts-integrated math
+and science activities, followed by one-on-one post interviews, in which the students reflected
+on the activities and their definitions of math, science, and the arts. This work advances
+understanding of how to reframe math and science education—from unfeeling, sedentary, and
+objective, towards expressive, embodied, and artful.",
+      "role": { "title": "Lead Researcher", "details": "2026" }
     }
   ],
   "other": [
