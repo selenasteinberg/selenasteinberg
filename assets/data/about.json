@@ -1,6 +1,6 @@
 {
   "name": "Selena Steinberg",
-  "tagline": "Learning Scientist",
+  "tagline": "she/her | Learning Scientist",
   "typedItems": [
     "Educator",
     "Researcher",
@@ -11,10 +11,6 @@
     {
       "role": "Graduate Researcher",
       "institution": "Indiana University"
-    },
-    {
-      "role": "Job Title",
-      "institution": "Company Name"
     }
   ],
   "contacts": [
