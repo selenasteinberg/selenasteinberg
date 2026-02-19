@@ -1,12 +1,12 @@
 {
   "publications": [
     {
-      "citation": "<strong>Doe, J.</strong> & Smith, A. (2024). Sample featured publication. <em>Journal of Examples</em>.",
-      "link": "https://example.com"
+      "citation": "<strong>Steinberg, S.</strong>, Gresalfi, M., Vogelstein, L. & Brady, C. (2022). Coding choreography: Understanding student responses to representational incompatibilities between dance and programming. <em>Journal of Research on Technology in Education</em>. 56(3), 314–331",
+      "link": "https://doi.org/10.1080/15391523.2022.2135144"
     },
     {
-      "citation": "<strong>Doe, J.</strong> (2023). Another sample paper. <em>Proceedings of Examples</em>.",
-      "link": "https://example.com"
+      "citation": "<strong>Steinberg, S.</strong> & Danish, J. (2025). Taking a scientist perspective: Constructing science identities through embodied modeling. In Rajala, A., Cortez, A., Hofmann, R., Jornet, A., Lotz-Sisitka, H., & Markauskaite, L. (Eds.), Proceedings of the 19th International Conference of the Learning Sciences - ICLS 2025 (pp. 1424-1428). International Society of the Learning Sciences.",
+      "link": "https://repository.isls.org//handle/1/11288"
     }
   ]
 }
