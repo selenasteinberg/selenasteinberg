@@ -1,17 +1,16 @@
 {
-  "name": "Jane Doe",
+  "name": "Selena Steinberg",
   "tagline": "Researcher, educator, and designer",
   "typedItems": [
     "Educator",
     "Researcher",
-    "Designer",
-    "Advocate"
+    "Designer"
   ],
-  "text": "This is my bio where I describe my current role, future goals, and research interests.",
+  "text": "I am a learning scientist and educational researcher.",
   "roles": [
     {
-      "role": "Role Name",
-      "institution": "Institution Name"
+      "role": "Graduate Researcher",
+      "institution": "Indiana University"
     },
     {
       "role": "Job Title",
