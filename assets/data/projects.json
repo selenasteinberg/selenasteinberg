@@ -11,7 +11,10 @@
     {
       "icon": "bi-flower3",
       "title": "GEM-STEP",
-      "description": "sample",
+      "description": "This project explores how students learn scientific modeling and complex systems thinking through playful mixed-reality embodied science activities. 
+•	Designed, implemented, and analyzed curriculum on aquatic ecosystems, decomposition, and Wetlands in an after-school club and several 5th-6th grade classrooms.
+•	Led analyses on science identity, student agency, and theatrical approaches to science.
+",
       "role": { "title": "Graduate Research Assistant", "details": "2021 - 2024" },
       "principles": { "title": "PI", "details": "Joshua Danish" },
       "link": "https://embodiedplay.org/"
