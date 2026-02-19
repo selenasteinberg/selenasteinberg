@@ -10,11 +10,11 @@
   "other": [
     {
       "icon": "bi-flower3",
-      "title": "Sample Project",
-      "description": "Brief project summary.",
-      "role": { "title": "Graduate Research Assistant", "details": "2020 - Present" },
-      "principles": { "title": "Co-PIs", "details": "First Last & Second Last" },
-      "link": "https://example.com"
+      "title": "GEM-STEP",
+      "description": "sample",
+      "role": { "title": "Graduate Research Assistant", "details": "2021 - 2024" },
+      "principles": { "title": "PI", "details": "Joshua Danish" },
+      "link": "https://embodiedplay.org/"
     }
   ]
 }
