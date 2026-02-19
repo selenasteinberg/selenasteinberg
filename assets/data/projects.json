@@ -16,5 +16,16 @@
       "principles": { "title": "PI", "details": "Joshua Danish" },
       "link": "https://embodiedplay.org/"
     }
+  ],
+ "other": [
+    {
+      "icon": "bi-flower3",
+      "title": "VFOI: Visualizing Funds of Identity",
+      "description": "This project explores how network visualizations can help students to simultaneously explore their collective identities and data science concepts.",
+      "role": { "title": "Graduate Research Assistant", "details": "2021 - 2026" },
+      "principles": { "title": "PI", "details": "Joshua Danish" },
+      "link": "https://netcreate.org/"
+    }
   ]
+  
 }
