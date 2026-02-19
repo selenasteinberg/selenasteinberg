@@ -19,7 +19,7 @@
   ],
   "contacts": [
     {
-      "email": "academic@example.edu",
+      "email": "ssteinb@iu.edu",
       "type": "academic"
     },
     {
@@ -28,14 +28,9 @@
     }
   ],
   "social": {
-    "bluesky": "https://bsky.app/profile/example.bsky.social",
-    "twitter": "https://twitter.com/example",
-    "google_scholar": "https://scholar.google.com/",
-    "github": "https://github.com/example",
-    "linkedin": "https://www.linkedin.com/in/example/",
-    "academia": "https://www.academia.edu/example",
-    "webofscience": "https://www.wob.org/example",
-    "researchgate": "https://www.researchgate.com/example"
+    "bluesky": "https://bsky.app/profile/selenasteinberg.bsky.social",
+    "google_scholar": "https://scholar.google.com/citations?user=B0O79xgAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/selena-steinberg-913353162/",
   },
   "profileImage": "assets/img/profile-headshot.png",
   "profileImageAlt": "Jane Doe headshot"
