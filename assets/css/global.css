@@ -7,33 +7,72 @@
   --nav-font: "Lato", sans-serif;
 
   /* =========================
-     Semantic color tokens (preferred)
+     Theme colors (defaults; overridden by site-preferences.json)
      ========================= */
   /* Core surfaces & text */
-  --background-color: #ffffff;            /* Page background (body/sections) */
-  --color-surface: #ffffff;       /* Cards/panels/tiles */
-  --color-surface-2: #f8f9fa;     /* Alternate surface for subtle contrast */
-  --color-text: black;            /* Body text */
-  --color-heading: black;         /* Headings/titles */
-  --color-text-muted: #6c757d;    /* Metadata/captions */
-  --color-text-subtle: #555555;   /* Descriptions/softer copy */
-  --color-border: #e0e0e0;        /* Dividers & tile borders */
+  --page-bg: #ffffff;               /* Body + section backgrounds */
+  --surface-color: #ffffff;         /* Cards/panels/tiles */
+  --surface-alt-color: #f8f9fa;     /* Alternate surface for contrast */
+  --text-color: #111111;            /* Body text */
+  --heading-color: #111111;         /* Headings/titles */
+  --text-muted-color: #6c757d;      /* Metadata/captions */
+  --text-subtle-color: #555555;     /* Descriptions/softer copy */
+  --border-color: #e0e0e0;          /* Dividers & tile borders */
 
-  /* Brand / accent */
-  --dark-accent: #151427;         /* Background of nav pane & tile borders */
-  --bright-accent: #006466;        /* Links, buttons, highlights, icons */
-  --color-on-accent: #ffffff;     /* Text/icons that sit on accent backgrounds */
+  /* Brand / accents */
+  --accent-color: #EF8A17;          /* Links, buttons, highlights */
+  --accent-contrast-color: #ffffff; /* Text/icons on accent */
 
-  /* Effects */
-  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.1); /* Tile/button hover elevation */
+  /* Navigation */
+  --nav-text-color: #a8a9b4;
+  --nav-text-hover-color: #ffffff;
+  --nav-bg-color: #040b14;
+  --nav-toggle-bg-color: var(--accent-color);
+
+  /* Footer */
+  --footer-bg-color: var(--page-bg);
+
+  /* Badges */
+  --badge-bg: #3E1F47;
 
   /* Hero overlay (two-stop gradient over hero image) */
-  --hero-overlay-start: var(--dark-accent);
-  --hero-overlay-end: var(--bright-accent);
+  --hero-overlay-start: rgba(239, 138, 23, 0.8);
+  --hero-overlay-end: rgba(143, 37, 12, 0.8);
 
   /* Accent washes (soft tinted backgrounds for chips/tiles) */
-  --accent-wash-dark: color-mix(in srgb, var(--dark-accent) 20%, transparent);
-  --accent-wash-bright: color-mix(in srgb, var(--bright-accent) 20%, transparent);
+  --accent-wash-dark: color-mix(in srgb, var(--nav-bg-color) 20%, transparent);
+  --accent-wash-bright: color-mix(in srgb, var(--accent-color) 20%, transparent);
+
+  /* Section alternates */
+  --section-alt-bg-color: var(--accent-wash-dark);
+
+  /* Effects */
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  /* =========================
+     Legacy aliases (keep existing CSS working)
+     ========================= */
+  --background-color: var(--page-bg);
+  --color-bg: var(--page-bg);
+  --default-color: var(--text-color);
+  --color-text: var(--text-color);
+  --color-heading: var(--heading-color);
+  --color-text-muted: var(--text-muted-color);
+  --muted-text-color: var(--text-muted-color);
+  --soft-text-color: var(--text-subtle-color);
+  --color-text-subtle: var(--text-subtle-color);
+  --color-border: var(--border-color);
+  --color-surface: var(--surface-color);
+  --color-surface-2: var(--surface-alt-color);
+  --tile-bg: var(--surface-alt-color);
+  --bright-accent: var(--accent-color);
+  --dark-accent: var(--nav-bg-color);
+  --color-on-accent: var(--accent-contrast-color);
+  --contrast-color: var(--accent-contrast-color);
+  --nav-color: var(--nav-text-color);
+  --nav-hover-color: var(--nav-text-hover-color);
+  --nav-bg: var(--nav-bg-color);
+  --section-alt-bg: var(--section-alt-bg-color);
 
   /* Global behavior */
   scroll-behavior: smooth;
@@ -45,7 +84,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background-color: var(--background-color);
   font-family: var(--default-font);
   
 }
@@ -128,7 +167,7 @@ span {
 }
 
 .alt-section {
-  background-color: var(--accent-wash-dark)
+  background-color: var(--section-alt-bg, var(--accent-wash-dark));
 }
 
 .section .content-container {
@@ -143,7 +182,7 @@ span {
 
 .footer {
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background-color: var(--footer-bg-color, var(--background-color));
   font-size: 14px;
   padding: 40px 0;
   position: relative;
@@ -168,7 +207,7 @@ span {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: var(--color-bg);
+  background: var(--background-color);
   transition: all 0.6s ease-out;
 }
 

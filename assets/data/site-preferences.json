@@ -8,26 +8,34 @@
     "resources": "Open-Access Resources"
   },
 
+ 
   "theme": {
     "colors": {
-      "background": "#ffffff",
-      "default": "#111111",
-      "heading": "#111111",
-      "accent": "#006466",
+      "pageBg": "#ffffff",
       "surface": "#ffffff",
-      "contrast": "#ffffff",
+      "surfaceAlt": "#FBF8C5",
 
-      "nav": "#a8a9b4",
-      "navHover": "#ffffff",
-      "navMobileBg": "#040b14",
+      "textBody": "#111111",
+      "textHeading": "#111111",
+      "textMuted": "#6c757d",
+      "textSubtle": "#555555",
 
-      "mutedText": "#6c757d",
-      "softText": "#555555",
+      "accent": "#EF8A17",
+      "accentOn": "#ffffff",
+
       "border": "#e0e0e0",
-      "tileBg": "#f8f9fa",
-      "badgeBg": "#3E1F47",
-      "heroOverlayStart": "rgba(39,38,64,0.9)",
-      "heroOverlayEnd": "rgba(20,69,82,0.9)"
+      "badgeBg": "#8F250C",
+
+      "navText": "#ffffff",
+      "navTextHover": "#ffffff",
+      "navBg": "#8F250C",
+      "navToggleBg": "#8f250b",
+
+      "sectionAltBg": "#fce8d5",
+      "footerBg": "#8F250C",
+
+      "heroOverlayStart": "rgba(239, 138, 23, 0.8)",
+      "heroOverlayEnd": "rgba(143, 37, 12, 0.9)"
     }
   },
 
