@@ -15,7 +15,7 @@
       "role": { "title": "Graduate Research Assistant", "details": "2021 - 2024" },
       "principles": { "title": "PI", "details": "Joshua Danish" },
       "link": "https://embodiedplay.org/"
-    }
+    },
       {
       "icon": "bi-flower3",
       "title": "VFOI: Visualizing Funds of Identity",
@@ -23,7 +23,7 @@
       "role": { "title": "Graduate Research Assistant", "details": "2021 - 2026" },
       "principles": { "title": "PI", "details": "Joshua Danish" },
       "link": "https://netcreate.org/"
-    }
+    },
      {
       "icon": "bi-flower3",
       "title": "Sample Project",
@@ -33,5 +33,5 @@
       "link": "https://netcreate.org/"
     }
   ]
-  
+
 }
