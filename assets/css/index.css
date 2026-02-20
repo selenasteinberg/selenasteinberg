@@ -296,7 +296,7 @@
 /*--------------------------------------------------------------
 # Technologies Section
 --------------------------------------------------------------*/
-
+<!--
 .technologies .container-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -425,7 +425,7 @@
   background-color: var(--accent-color);
   color: var(--contrast-color);
 }
-
+-->
 /*--------------------------------------------------------------
 # Featured Publications Section
 --------------------------------------------------------------*/
