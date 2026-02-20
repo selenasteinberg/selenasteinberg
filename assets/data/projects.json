@@ -26,11 +26,10 @@
     },
      {
       "icon": "bi-flower3",
-      "title": "Sample Project",
-      "description": "Description.",
-      "role": { "title": "Graduate Research Assistant", "details": "2021 - 2026" },
-      "principles": { "title": "PI", "details": "Joshua Danish" },
-      "link": "https://netcreate.org/"
+      "title": "Imagination, Identity, and Power in a Children’s Museum",
+      "description": "This project explores how through participatory design, we can design activities to support youth to engage and connect with an exhibit and be changemakers in their communities.",
+      "role": { "title": "Graduate Researcher", "details": "2023 - 2026" },
+      "principles": { "title": "PI", "details": "Day Greenberg" }
     }
   ]
 
